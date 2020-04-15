@@ -1,0 +1,35 @@
+.form-group{
+    background-color: white;
+    margin-top: 20px;
+    height: 80vh;
+}
+
+.Height{
+    height: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.Bottom{
+    border-bottom: 1px solid #DCDCDC;
+}
+
+.form-control, .form-control:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+#messageBody{
+    height: 70%;
+}
+
+.align-right{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+.Border{
+    border: 1px solid #DCDCDC;
+}
