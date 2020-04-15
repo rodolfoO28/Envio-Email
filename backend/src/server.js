@@ -30,7 +30,6 @@ server.post('/enviar/email', async (req, res) => {
     
     return res.json({ message: 'Email enviado com sucesso!'});
   } catch (error) {
-    console.log(error);
     return res.status(400).json({
       error: 'Não foi possível enviar o email. Tente novamente mais tarde!'
     })
